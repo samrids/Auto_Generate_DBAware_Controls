@@ -8,3 +8,5 @@ How to:
   - frmViewData:= TfrmViewData.create(Self);
   - frmViewData.GenDBAwareControl(cxDbtv1.DataController.DataSet);
   - frmViewData.ShowModal;<br>
+Youtube demo:
+  - https://www.youtube.com/watch?v=7FKJuUnMzkg
