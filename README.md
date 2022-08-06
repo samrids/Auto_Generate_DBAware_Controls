@@ -5,6 +5,6 @@ Delphi:
 
 How to:
   
-  frmViewData:= TfrmViewData.create(Self);
-  frmViewData.GenDBAwareControl(cxDbtv1.DataController.DataSet);
-  frmViewData.ShowModal;
+  - frmViewData:= TfrmViewData.create(Self);
+  - frmViewData.GenDBAwareControl(cxDbtv1.DataController.DataSet);
+  - frmViewData.ShowModal;<br>
