@@ -183,7 +183,7 @@ begin
       cxDBCheckBox.name := format('cxDBCheckBox_%s%d',
         [Query.Fields.Fields[i].FieldName, i]);
       cxDBCheckBox.Width := 250;
-      cxDBCheckBox.Left := 120 + (400 * Level);
+      cxDBCheckBox.Left := 116 + (400 * Level);
       cxDBCheckBox.Top := FieldLabel.Top; // 26*(i-(Level*26));
       cxDBCheckBox.Caption := '';
       cxDBCheckBox.DataBinding.DataField := Query.Fields.Fields[i].FieldName;
@@ -191,7 +191,7 @@ begin
       cxDBCheckBox.TabOrder := i;
       cxDBCheckBox.visible := True;
       cxDBCheckBox.parent := cxScrollBox1;
-      LastBottom := cxDBCheckBox.BoundsRect.Bottom;
+      LastBottom := cxDBCheckBox.BoundsRect.Bottom + 20;
     end
     else if ((Query.Fields.Fields[i].DataType = ftDate) or
       (Query.Fields.Fields[i].DataType = ftDateTime)) then
